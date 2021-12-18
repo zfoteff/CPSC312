@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photoDisplay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventPhotos" />
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/eventNameTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eventLocation2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/eventTitle"
+        app:layout_constraintStart_toEndOf="@+id/eventLocationTitle"
+        app:layout_constraintTop_toBottomOf="@+id/eventTitle" />
+
+    <TextView
+        android:id="@+id/eventNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Event:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/eventTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eventLocationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Location:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/eventLocation2"
+        app:layout_constraintStart_toStartOf="@+id/eventNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/eventNameTitle" />
+
+    <TextView
+        android:id="@+id/eventTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Start time: "
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/eventTime"
+        app:layout_constraintStart_toStartOf="@+id/eventLocationTitle"
+        app:layout_constraintTop_toBottomOf="@+id/eventLocationTitle" />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/eventLocation2"
+        app:layout_constraintStart_toEndOf="@+id/eventTimeTitle"
+        app:layout_constraintTop_toTopOf="@+id/eventTimeTitle" />
+
+    <TextView
+        android:id="@+id/eventPhotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Photos:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/eventTimeTitle"
+        app:layout_constraintTop_toBottomOf="@+id/eventTimeTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

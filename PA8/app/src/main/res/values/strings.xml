@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NearMe</string>
+    <string name="search">Search</string>
+    <string name="current_location">Current Location</string>
+    <string name="placeholder">placeholder</string>
+    <string name="result_image">Result image</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/layout/card_item_layout.xml" value="0.75" />
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/layout/video_details_activity.xml" value="0.33" />
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/layout/view_details_activity.xml" value="0.33" />
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/menu/activity_menu.xml" value="0.309375" />
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/menu/cam_menu.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/Zac/GitHub/CPSC312/pa6-zfoteff/WatchList/app/src/main/res/menu/main_menu.xml" value="0.309375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

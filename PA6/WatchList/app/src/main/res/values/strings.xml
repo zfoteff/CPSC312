@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WatchList</string>
+    <string name="create_button">ADD NEW VIDEO TO THE WATCH LIST</string>
+    <string name="add_video_button">Add Video Button</string>
+    <string name="watched">Watched</string>
+    <string name="save_video_to_watchlist">Save Video To Watchlist</string>
+    <string name="entry_text">Video Name</string>
+    <string name="photo_content_desc">Image of show being added to watchlist</string>
+    <string name="add_item">Add Item</string>
+    <string name="back">Go Back</string>
+    <string name="cancel">Cancel</string>
+</resources>

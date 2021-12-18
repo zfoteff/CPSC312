@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Grade Calculator</string>
+    <string name="desired_grade">Desired Grade: </string>
+    <string name="min_avg">Min Average Required: </string>
+    <string name="curr_avg">Current Average: </string>
+    <string name="final_weight">Final percentage Weight: </string>
+    <string name="calc">Calculate!</string>
+    <string name="result">To get a %s you need a final exam grade of</string>
+    <string name="result_low">Hit the books!</string>
+    <string name="result_avg">You\'re in a good spot, but brush up before the test</string>
+    <string name="result_high">You\'ve got this!</string>
+    <string name="result_veryhigh">Even if you fail you couldn\'t fail!</string>
+    <string name="min_ex">Ex: 50.0</string>
+    <string name="curr_ex">Ex: 80.0</string>
+    <string name="weight_ex">Ex: 10.0</string>
+    <string name="result_percentage">%s</string>
+    <string name="grade_ex">Ex: A</string>
+</resources>
